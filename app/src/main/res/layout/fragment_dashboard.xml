@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F8F9FA">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#284b63"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.07"
+            android:paddingTop="23dp"
+            android:text="Other Options"
+            android:textColor="#d9d9d9"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="-20dp"
+            android:background="@drawable/profile_text_view2"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/attendanceBtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/dashboard_btn"
+                android:layout_weight="1"
+                android:textColor="#16697a"
+                android:textSize="17sp"
+                android:backgroundTint="#ffffff"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="Attendance"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/timetableBtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/dashboard_btn"
+                android:backgroundTint="#ffffff"
+                android:layout_weight="1"
+                android:textSize="17sp"
+                android:textColor="#16697a"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Time Table"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/marksBtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/dashboard_btn"
+                android:layout_weight="1"
+                android:textSize="17sp"
+                android:textColor="#16697a"
+                android:backgroundTint="#ffffff"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="Marks"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/feedbackBtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/dashboard_btn"
+                android:backgroundTint="#ffffff"
+                android:layout_weight="1"
+                android:textSize="17sp"
+                android:textColor="#16697a"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Feedback"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#284b63"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.07"
+            android:paddingTop="23dp"
+            android:text="Dashboard"
+            android:textColor="#d9d9d9"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="@drawable/profile_text_view2"
+            android:layout_marginTop="-20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="5dp"
+                android:layout_marginTop="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Attendance"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#33415c"
+                        android:gravity="center"
+                        android:letterSpacing="0.09"
+                        android:layout_weight="0.5"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="75%"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#33415c"
+                        android:gravity="center_horizontal"
+                        android:layout_weight="0.5"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Today's Attendance"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#33415c"
+                        android:gravity="center"
+                        android:letterSpacing="0.09"
+                        android:layout_weight="0.5"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="All Present"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#33415c"
+                        android:gravity="center_horizontal"
+                        android:layout_weight="0.5"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Last Test %"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#33415c"
+                        android:gravity="center"
+                        android:letterSpacing="0.09"
+                        android:layout_weight="0.5"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="85%"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#33415c"
+                        android:gravity="center_horizontal"
+                        android:layout_weight="0.5"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Upcoming College Event"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#33415c"
+                        android:gravity="center"
+                        android:letterSpacing="0.09"
+                        android:layout_weight="0.5"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Fresher's Party "
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#33415c"
+                        android:gravity="center_horizontal"
+                        android:layout_weight="0.5"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarksFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#1d3557"
+            android:text="Marks"
+            android:gravity="center_horizontal"
+            android:paddingTop="25dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat"
+            android:letterSpacing="0.08"
+            android:textColor="#e9ecef"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="@drawable/profile_text_view2"
+            android:layout_marginTop="-20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Your Exam"
+                android:gravity="center_horizontal"
+                android:textSize="24sp"
+                android:textColor="#354f52"
+                android:layout_marginTop="200dp"/>
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginTop="12dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Confirm"
+                android:padding="8dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/dashboard_btn"
+                android:textColor="#14213d"
+                android:backgroundTint="#56cfe1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
